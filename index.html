@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/worldwide.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/html5reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Pets, Recipes, & Travel</title>
+</head>
+<body>
+    <div>
+        <header>
+            <a class="offscreen" href = "#main">Skip to Main Content</a>
+            <div>
+                <nav class="regnav">
+                    <ul>
+                        <li class="active"><a href = "index.html">Home</a></li>
+                        <li><a href = "pets.html">Pets</a></li>
+                        <li><a href = "recipes.html">Recipes</a></li>
+                        <li><a href = "travel.html">Travel</a></li>
+                    </ul>
+                </nav>
+                <div class="topnav">
+                    <a href="index.html" class="active">Home</a>
+                    <div id="myLinks">
+                        <a href="pets.html">Pets</a>
+                        <a href="recipes.html">Recipes</a>
+                        <a href="travel.html">Travel</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="hamMenu()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h1>Pets, Recipes, & Travel</h1>
+            </div>
+        </header>
+        <main class= "home-container" id="main">
+                <div class= "text-block">
+                    <p>Welcome to Pets, Recipes, & Travel, your go-to destination for all things pets, recipes, and travel! Explore a world of captivating content where we cater to your love for furry companions, culinary delights, and globetrotting adventures. </p>
+                    <p>On the <a href = "pets.html">Pets</a> page, you can find a multitude of cute pets for your viewing pleasure. The <a href = "recipes.html">Recipes</a> page will give you some amazing recipes to try. Looking for your next dream vacation? Look no further than our <a href = "travel.html">Travel</a> page!</p>
+                </div>
+                <!-- Jackie Wolf -->
+        </main>
+    </div>
+    <script>
+        function hamMenu() {
+    let x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    }
+    else {
+        x.style.display = "block";
+    }
+    }
+    </script>
+</body>
+
+</html>
