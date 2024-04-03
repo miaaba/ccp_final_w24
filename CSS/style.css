@@ -117,7 +117,7 @@ outline: 2px solid #000000;
     left: 10px;
 }
 
-a:visited{
+a:visited, a:link{
     color: black;
 }
 
@@ -125,6 +125,7 @@ a:visited{
 	background: #DCCCFf;
     text-transform: uppercase;
     text-decoration: underline;
+    text-decoration-style: dotted;
     color: black;
     font-weight: bold;
 }
@@ -344,12 +345,12 @@ a:visited{
         text-decoration: underline;
     }
 
-    .active{
+    /* .active{
         background: #DCCCFf;
         text-transform: uppercase;
         text-decoration: underline;
         color: black;
-    }
+    } */
 
     .home-container{
         display: grid;
